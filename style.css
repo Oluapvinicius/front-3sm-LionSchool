@@ -1,0 +1,151 @@
+
+:root {--cor-principal: #3347B0;}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: var(--cor-principal);
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+    height: 90px;
+    gap: 8px;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    width: 60px;
+    height: 45px;
+    font-style: roboto;
+}
+
+
+.container-button-sair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 200px;
+}
+
+.button-sair{
+    font-style: roboto;
+    color: white;
+    font-size: 36px;
+}
+
+
+footer{
+    background-color: var(--cor-principal);
+    height: 144px;
+}
+
+.container-contatos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatos-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 144px;
+    width: 460px;
+}
+.contatos-left ul{
+    list-style-type: none;
+    height: 110px;
+    width: 250px;
+}
+.contatos-left li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    
+}
+.contatos-left h1{
+    color: white;
+    font-size: 16px;
+}
+.contatos-center h1{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 144px;
+    width: 500px;
+}
+.contatos-right{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 144px;
+    width: 400px;
+}
+
+.contatos-right ul{
+    display: flex;
+    
+    gap: 15px;
+    list-style-type: none;
+}
+.contatos-right li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white solid 2px;
+    
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+}
+.contatos-right a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    width: 48px;
+    height: 48px;
+    
+}
+.contatos-right img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height:75%;
+}
+
+.container-home{
+    height: 100%;
+}
+.container-home span{
+    color: var(--cor-principal);
+}
+
+.box-left{
+    
+    width: 40%;
+}
