@@ -139,6 +139,8 @@ main{
 }
 
 .container-home{
+    display: flex;
+    flex-direction: row;
     height: 100%;
 }
 .container-home span{
@@ -146,6 +148,94 @@ main{
 }
 
 .box-left{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 40%;
+}
+.box-left h1{
+   
+    font-size: 60px;
+}
+.divH1Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 76%;
+}
+.divImgHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.box-left img{
+    
+}
+.box-mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+
+.box-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#ButtonDesenvolvimento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 0px 0px #131c58;
+    background-color: #3347B0;
+    width: 60%;
+    height: 30%;
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+#ButtonDesenvolvimento h1{
+   
+    font-size: 64px;
+    color: white;
+}
+
+#ButtonDesenvolvimento img{
+    padding-right: 18px;
+    width: 96px;
+    height: 76px;
+}
+
+#ButtonRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 0px 0px #131c58;
+    background-color: #3347B0;
+    cursor: pointer;
+    width: 60%;
+    height: 30%;
+}
+
+#ButtonRedes:hover{
+    color: rgb(180, 180, 180);
+    }
+
+#ButtonRedes h1{
+    font-size: 64px;
+    color: white;
+}
+#ButtonRedes img{
+    padding-right: 18px;
+    width: 96px;
+    height: 76px;
 }
